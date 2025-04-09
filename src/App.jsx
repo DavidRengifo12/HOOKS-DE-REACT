@@ -1,33 +1,37 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Callback1 from './useCallback/Callback1'
+import Callback2 from './useCallback/Callback2'
+import Callback3 from './useCallback/Callback3'
+import Ejer1 from './useEffect/Ejer1'
+import Ejer2 from './useEffect/Ejer2'
+import Ejer3 from './useEffect/Ejer3'
+
+import Chronometer from './useRef/Chronometer'
+import Carrusel from './useRef/Carrusel'
+import Count from './useRef/Count'
+
+
 import './App.css'
 
+
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+    
+    {/*<Callback1 />
+    <Callback2 />
+    <Callback3 />
+    <Ejer1 />
+    <Ejer2 />
+    <Ejer3 />
+    <Chronometer />
+    <Carrusel />
+    <Count />*/}
+    
+    
+    
+
     </>
   )
 }
